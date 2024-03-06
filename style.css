@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+*{margin:0;padding: 0;}
+body{background-color: black;}
+.main{background-image:url("bg.jpg");height: 80vh;
+background-position: center center;
+background-repeat: no-repeat;
+background-size:max(1200px,100vw);height:70vh}
+
+.box{height:70vh;width:100%;opacity:0.69;background-color: black;position:absolute;top:0}   
+nav img {z-index: 40;position: relative;}
+nav button{position: relative;z-index: 40;}
+.hero{height:calc(100% - 62px);display:flex;align-items: center;justify-content: center;flex-direction: column;color:white;position: relative;z-index: 2;
+        font-family: "Martel Sans", sans-serif}
+.hero> :first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}        
+.hero> :nth-child(2){
+    font-size:24px;
+    font-weight: 400px;text-align: center;
+}
+.seperation{height: 7px;background-color: rgb(58, 57, 57);}
+.btn{padding:3px 8px;font-weight:400px;background-color: rgba(23,23,0,0.7);color: white;border: radius 4px;cursor: pointer}
+.btn-red{background-color: red;color: white;padding:3px 24px;font-size: 20px;border-radius: 4px;font-weight: 400px;}
+.btn-red-sm{background-color: red;color: white;}
+.main input{
+    padding:3px 24px;font-size: 20px;border-radius: 4px;background-color: rgba(23,23,0,0.7);border:1px solid rgba(246, 238, 231, 238,0.1);color:white;font-weight: 100px;
+}
+.first{display: flex;justify-content: center;max-width: 70vw;margin: auto;align-items: center;color: white;}
+.secimg{position: relative;}
+.secimg img{width: 30vw;position: relative;z-index: 10;}
+.secimg video{position: absolute;top:75px;right:69px;width:21vw}
+section.first > div{display: flex;flex-direction: column;}
+section.first > div :first-child{font-size: 48px;font-weight: bolder;}
+section.first > div :nth-child(2){font-size: 24px;}
+.secimg1 video{position:absolute;top:21px;right:82px;width:19vw}
+.faq{color: white;}
+.faq h2{text-align: center;}
+.box7{padding: 20px;background-color: rgb(77, 76, 76);max-width:60vw;margin: 12px auto;display: flex;justify-content: space-between;align-items: center;font-size: 20px;}
+.box7:hover{background-color: rgb(43, 42, 42);}
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
